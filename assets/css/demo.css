@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .body{
+    background-color: #000000;
+} */
+.mountains{
+    backdrop-filter: brightness(15%);
+    background-image: url(../images/mountain.png);
+    width: 100%;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mountains_button{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.img_main{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: white;
+}
+.row1,.row3{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.la,.sb,.cdp,.hpa{
+    height: 300px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    align-content: flex-end;
+
+}
+.la{
+    background-image: url("../images/makeup.png");
+}
+.sb{
+    background-image: url("../images/lapf.png");
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.illu,.mb,.ar,.ai,.ai_p{
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    align-content: flex-end;
+
+}
+.illu{
+    height: 300px;
+    background-image: url("../images/engineers.png");
+}
+.row2_sub{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.mb{
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/vcr.png");
+}
+.row2_sub1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+}
+.ar,.ai{
+    height: 175px;
+}
+.ar{
+  background-image: url("../images/laptop.png");
+}
+.ai{
+  background-image: url("../images/cottonbro.png");
+}
+.ai_p{
+    height: 250px;
+    background-image: url("../images/mikael-blomkvist.png");
+}
+.cdp{
+    background-image: url("../images/engineers.png");
+}
+.hpa{
+    background-image: url("../images/googledeepmind.png");
+}
+
+.mountains_button button{
+    padding: 10px 8px;
+    color: #FFFFFF;
+    border: 3px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 56px;
+    opacity: 1;
+}
+.img_main p{
+    font-size: 1.5em;
+    padding: 10px;
+}
+.wave_img{
+    margin-top: 20px;
+    width: 100%;
+    height: 25vh;
+    position: relative;
+
+
+
+    /* background-color: #000000; */
+}
+.wave_img img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+.wave_img h1{
+    position: absolute;
+    top: 40%;
+    color: white;
+    left:30%;
+    font-size: 2rem;
+}
+
+    
+.howwework{
+    width: 100%;
+    background-color: #000000;
+
+}
+.howwework h2{
+    padding-top: 30px;
+    color: #EC6754;
+    text-align: center;
+    font-size: 2em;
+}
+
+.howwework_sub{
+    margin: auto;
+    background-image: url("../images/rope.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30% 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    color: #FFFFFF;
+    row-gap: 2%;
+    padding-bottom: 20%;
+    place-items: center;
+    
+}
+.first{
+    padding-right: 30%;
+    text-align: end;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    width: 70%;
+    padding-left: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+.hwwimg{
+    width: 30%;
+}
+.fist_div{
+    padding-top: 30%;
+}
+
+.content h3{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.content p{
+    color: #bcaeae;
+}
+.Our_Creative_Universe{
+    background-color:#262626;
+    width: 100%;
+}
+.ocu_div1p{
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+    font-size: 2em;
+    color: #85CCD1;
+}
+.ocu_div1p button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding:1vw 1.5vh;
+    border-radius: 17px;
+    border: 2px solid white;
+}
+.ocu_div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ocu_card{
+    width: 30%;
+}
+.ocu_img img{
+    width: 100%;
+    height: 100%;
+
+}
+.ocu_btn button{
+    margin-top: 10px;
+    background-color: #4C7852;
+    border: none;
+    padding: 2px 4px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.ocu_p{
+    margin-top: 3%;
+    color: #FFFFFF;
+    padding-bottom: 15%;
+}
+.demo_div{
+    width: 100%;
+    height: 100px;
+    display: none;
+    background-color: #000000;
+}
+.client {
+    width: 100%;
+    background: #151515 0% 0% no-repeat padding-box;
+    padding-bottom: 20px;
+  }
+  .client h2 {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-78) /
+      var(--unnamed-line-spacing-95)
+      var(--unnamed-font-family-arial-rounded-mt-bold);
+    color: #ffc930;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3% 0 0 0;
+    margin-left: 2%;
+  }
+  .cll {
+    width: 90%;
+    margin: 5% 0 0 2%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cldes,
+  .cldess {
+    width: 40%;
+  }
+  
+  .cldes p,
+  .cldess p {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300)
+      33px / var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
+    color: #e2e1e1;
+  }
+  .cliinfo h3,
+  .cliinfoo h3 {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .cliinfo p,
+  .cliinfo p {
+    color: #989494;
+    font-size: 14px;
+  }
+  .cldess p,
+  .cliinfo p,
+  .cliinfoo h3 {
+    color: #6d6d6d;
+  }
+  .cliborder {
+    margin: 5% 0 0 2%;
+    display: flex;
+    gap: 5px;
+  }
+  .bline {
+    width: 10px;
+    height: 4px;
+    background-color: rgb(241, 58, 58);
+    border-radius: 4px;
+  }
+  .dline {
+    width: 4px;
+    height: 4px;
+    background: #4d4d4d 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+  }
+  .cliinfo,.cliinfoo{
+    padding-top: 15px;
+}
+
+.container7
+{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.container7 .futuread{
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+.futuread .imageside{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageside img{
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+.contentside{
+    width: 70%;
+    color: #FFFFFF;
+display: flex;
+align-items: center;
+}
+.innerbox
+{
+    width: 80%;
+    padding-left: 10%;
+}
+.contentside h1
+{
+    position: relative;
+    color: #EC6754;
+    text-align: center;
+    font-size: 2rem;
+    text-align: start;
+}
+.contentside p{
+    font-size: 2em;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+.contentside h3{
+    font-size: 2em;
+    margin-bottom: 0%;
+    flex-shrink: 0;
+}
+.data
+{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+.data div
+{
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 3px;
+    flex:1
+    
+    /* margin-bottom: 15px; */
+}
+.innerbox p{
+    padding: 20px 0px;
+}
+.innerbox button
+{
+    padding: 10px 40px;
+    border-radius: 56px;
+    background-color:transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
+}
+.innerbox .msg{
+    height: 35px;
+    font-size: 2em;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border-width: 0px 0px 1px 0px;
+    border-bottom: 3px solid white;
+    /* padding-bottom: 6px; */
+}
+
+.msg:focus{
+    outline: none;
+    /* border-width: 0px 0px 1px 0px;
+    border-bottom: 3px solid white; */
+}
+.submit_button:hover{
+    background-color: #FFC930;
+    color: black;
+    border-color: #FFC930;}
+
+@media (max-width: 600px) {
+    .contentside h3 {
+        font-size: 1em;
+    }
+    .contentside h1{
+        font-size: 1.5em;
+    }
+    .contentside p{
+        font-size: 1em;
+    }
+    .container7{
+        padding: 0px;
+        flex-direction: column;
+        justify-content: left;
+
+    }
+    .imageside,.imageside img{
+        display: none;
+    }
+    .demo_div{
+        display: block;
+    }
+    .ocu_div2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ocu_card{
+        width: 80%;
+        margin: auto;
+    }
+    .img_main{
+        grid-template-columns: auto;
+    }
+    .wave_img h1{
+        font-size: 1.5rem;
+    }
+    .howwework_sub{
+        background: none;
+        grid-template-columns: auto auto;
+        padding-bottom: 0px;
+        background-color: #000000;
+        margin-bottom: -10px;
+        row-gap: 0px;
+
+
+    }
+    .fist_div{
+        padding-top: 0px;
+    }
+    .second{
+        padding-left: 0%;
+    }
+    .first{
+        padding-right: 0px;
+    }
+ } 
+    
