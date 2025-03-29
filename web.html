@@ -6,6 +6,7 @@
     <title>New task</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/page4.css">
+    <link rel="stylesheet" href="./assets/css/page5.css">
 </head>
 <body>
     <div class="main">
@@ -22,8 +23,8 @@
             
             <div class="navmenu" id="twolines">
                 <button class="navmenus" ><a href="./services.html">SERVICES</a></button>
-                <button class="navmenus"><a href="./PAGE5.html">WORKS</a></button>
-                <button class="navmenus"><a href="./PAGE3.html" >ABOUT US</a></button>
+                <button class="navmenus"><a href="./works.html">WORKS</a></button>
+                <button class="navmenus"><a href="./about.html" >ABOUT US</a></button>
                 <button class="navmenus"><a href="./contact.html">CONTACT US</a></button>
                 <button class="twolines" id="twoline" onclick="removeNav()" style="border: 2px solid gray;">
                     X
@@ -184,24 +185,25 @@
                 <p>Your brand deserves more than just visibility—it deserves immersion, engagement, and impact. Let’s craft advertising that isn’t just seen but experienced.</p>
                 <div class="data">
                     <h3>Hello My name is</h3>
-                    <div></div>
+                    <input type="text" name="" id="" class="msg" >
                 </div>
                 <div class="data">
                     <h3 >I’am from</h3>
-                    <div style=" width: 70%;"></div>
+                    <input type="text" name="" id="" class="msg">
                 </div>
                 <div class="data">
                     <h3>My email address is</h3>
-                    <div style=" width: 44%;"></div>
+                    <input type="text" name="" id="" class="msg">
                 </div>
                 <div class="data">
                     <h3>And my message is</h3>
-                    <div style=" width: 45%;"></div>
+                    <input type="text" name="" id="" class="msg">
+                    
                 </div>
-                <div class="data">
+                <!-- <div class="data">
                     <div style=" width: 96%; margin-top: 20px;"></div>
-                </div>
-                <button>SUBMIT</button>
+                </div> -->
+                <button class="submit_button">SUBMIT</button>
             </div>
         </div>
         </div>
@@ -209,7 +211,7 @@
         <div style="width: 100%; height: 1px; background-color: #fff;"></div>
 
 
-        <div class="container8">
+        <div class="container8" id="footer">
             <div class="leftside">
                 <div class="imager">
                 <img src="./assets/images/Group 34188.png" alt="">
@@ -219,16 +221,16 @@
                     <div class="lll">
                         <img src="./assets/images/Asset 2@4x.png" alt="">
                         <div class="bll">
-                            <p>HOME</p>
-                            <p>ABOUT US</p>
-                            <p>SERVICES</p>
-                            <p>WORKS</p>
-                            <p>CONTACT</p>
+                            <a href="../index.html">HOME</a>
+                            <a href="../PAGE3.html">ABOUT US</a>
+                            <a href="../services.html">SERVICES</a>
+                            <a href="../PAGE5.html">WORKS</a>
+                            <a href="../contact.html">CONTACT</a>
                         </div>
                     </div>
                     <div class="rrr">
                         <h6>SUBSCRIBE</h6>
-                        <input type="text" name="" id="" placeholder="Email Address" disabled >
+                        <input type="text" name="" id="" placeholder="Email Address"  >
                         <p>Stay up to date on the latest features and <br> releases by joining our newsletter.</p>
                         <div class="brr">
                             <p>+91 7907009040</p>
