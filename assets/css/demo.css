@@ -916,6 +916,25 @@ font-size: 1em;
 }
 
 @media (max-width: 600px) {
+    .add_opt{
+        top: 10%;
+        width: 80%;
+        flex-direction: column;
+        padding: 10px;
+      }
+      .right h2{
+        margin-top: 0px;
+        font-size:2em ;
+      }
+      .right h3{
+        font-size: 1.5em;
+      }
+      .left{
+        display: none;
+      }
+      .right{
+        width: 100%;
+      }
     .boy_img img{
     bottom: -1vh;
     }
