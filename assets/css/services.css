@@ -20,13 +20,20 @@
     height: auto;
 }
 .threedots{
-    border: 2px solid gray;
-    position: absolute;
-    right: 2%;
-    top: 3%;
-    padding: 12px;
-    background: none;
-    cursor: pointer;
+    position: relative;
+    margin: 2% 3% 0 0;
+    width: 73px;
+    height: 54px;
+    background: #1B1A18 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+    border-radius: 56px;
+    opacity: 0.49;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
 }
 .line{
     width: 25px;
@@ -34,7 +41,7 @@
     margin-bottom: 3px;
 }
 .navmenu{
-    width: 40%;
+    width: 50%;
     position: absolute;
     right: 2%;
     top: 3%;
@@ -60,6 +67,15 @@
     border-radius: 42px;
     background: none;
     cursor: pointer;
+    color: white;
+}
+#twoline {
+    padding: 15px;
+    border-radius: 22px;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 100;
 }
 .tline{
     width: 25px;
@@ -207,7 +223,7 @@
 
      }
      .navmenus a{
-        font-size: 0.8em;
+        font-size: 11px;
      }
     .navfoot li{
         flex-direction: column;
