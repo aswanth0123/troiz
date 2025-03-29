@@ -10,7 +10,7 @@
     background-color: #000000;
 }
 .logo{
-    position: absolute;
+    /* position: absolute; */
     left: 2%;
     top: 3%;
     width: 100px;
@@ -69,9 +69,9 @@
     transform: rotate(-45deg);
 }
 .navSection{
-    position: absolute;
+    /* position: absolute; */
     width: 70%;
-    height: 80%;
+    height: 88vh;
     box-sizing: border-box;
     padding-left: 20px;
     background-color: #fff;
@@ -83,10 +83,13 @@
     flex-wrap: wrap;
     transition: all 0.5s ease-in-out;
 } 
+/* .sidebwoy{
+    position: fixed;
+} */
 .sideman{
-    position: absolute;
-    right: -120.5px;
-    height: 200px;
+    position: relative;
+    left: -16px;
+    height: 350px;
 }
 .navList{
     width: 26%;
@@ -94,11 +97,11 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .navLog{
     object-fit: contain;
-    width: 25px;
+    width: 40px;
 }
 .navHead{
     font-size: 0.9em;
@@ -117,19 +120,22 @@
     cursor: pointer;
 }
 .navfoot{
-    display: block;
-    position: absolute;
-    width: 18%;
-    height: 25%;
-    bottom: 5%;
-    right: 5%;
+    /* display: block; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10%; */
+    /* align-items: center; */
+    /* justify-content:end; */
     list-style-type: none;
+    /* background-color: red; */
 }
 .navfoot li{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+    padding-left: 10px;
 }
 .navfoot li p{
     margin-bottom: 0;
@@ -153,17 +159,37 @@
 .mail{
     background: #613B2B 0% 0% no-repeat padding-box;
 }
+.rightside{
+    display: flex;
+    flex-direction: column;
+    /* height: 88vh; */
+    width: 30%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.rightside ul{
+    background-color: green;
+    /* height: 100vh; */
+    width: 100%;
+}
+.content{
+    display: flex;
+    height: fit-content;
+}
     /* Mobile Devices*/
+
+
 @media only screen and (max-width: 600px) {
-    .navfoot{
+    /* .navfoot{
         width: 25%;
         height: 25%;
         bottom: 5%;
         right: 2%;
         font-size: 0.8em;
-    }
+    } */
     .navfoot li{
         flex-direction: column;
+        font-size: 12px;
     }
     .navflogo {
         width: 20px;
@@ -173,15 +199,41 @@
         padding: 10px;  
     }
   }
-  
+  @media (max-width: 720px){
+    .sideman{
+        left: -10px;
+        height: 200px;
+    }
+    .navLog{
+        width: 30px;
+    }
+    .navLists{
+        font-size: 0.6em;
+    }
+    .navHead{
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+}
+@media(max-width: 426px){
+    .sideman{
+        left: -7px;
+        height: 150px;
+    }
+    .navfoot li p{
+        font-size: 8px;
+        word-wrap: break-word;
+
+    }
+    }
   /* Tablets */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .navfoot{
+    /* .navfoot{
         width: 25%;
         height: 25%;
         bottom: 5%;
         right: 2%;
-    }
+    } */
     .navfoot li{
         flex-direction: column;
     }
@@ -193,6 +245,8 @@
         padding: 10px;  
     }
   }
+
+
   
   /* Laptops / Small Desktops */
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {

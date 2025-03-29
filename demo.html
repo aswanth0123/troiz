@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./assets/css/demo.css">
 </head>
 
 <body>
     <div class="add" id="add_opt">
-        <div class="add_opt" >
+        <div class="add_opt">
             <div class="left">
                 <img src="assets/images/Asset 1@4x.png" alt="">
             </div>
-            <div class="right" >
+            <div class="right">
                 <h5><button onclick="close_add()" class="h5btn">🗙</button></h5>
                 <h2>Ipsum dolor sit</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus accusamus corporis nam facilis libero adipisci aspernatur consectetur? Quae cumque, earum aut </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus accusamus corporis nam facilis
+                    libero adipisci aspernatur consectetur? Quae cumque, earum aut </p>
                 <h3>Lorem ipsum</h3>
                 <h3>sadipscing elitr sed dia sit amet mo nsetetur</h3>
                 <button class="button1">Submit</button>
@@ -26,6 +29,101 @@
         </div>
     </div>
     <div class="main">
+        <div class="container1" id="header">
+            <video src="./assets/video.mp4" autoplay loop muted class="video"></video>
+            <div class="nav_main">
+                            <div class="top">
+                <div class="logo">
+                    <a href="./index.html"><img src="./assets/images/Asset 2@4x.png" alt="" class="logo"
+                            title="Homepage"></a>
+                </div>
+                <div class="nav_div">
+                    <div class="icon_div" id="icon_div" onclick="displayNav()">
+                        <i class="fa fa-bars"></i>
+                    </div>
+
+                    <div class="navmenu" id="twolines">
+                        <button class="navmenus"><a href="./services.html">SERVICES</a></button>
+                        <button class="navmenus"><a href="./PAGE5.html">WORKS</a></button>
+                        <button class="navmenus"><a href="./PAGE3.html">ABOUT US</a></button>
+                        <button class="navmenus"><a href="./contact.html">CONTACT US</a></button>
+                        <button class="twolines" id="twoline" onclick="removeNav()" >
+                            X
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="branding">
+            <div class="brands">
+                <p class="brand">Brands We've Transformed</p>
+                <div class="bpictures">
+                    <div class="scroller">
+                        <img src="./assets/images/google.png" alt="">
+                        <img src="./assets/images/express.png" alt="">
+                        <img src="./assets/images/jaguar.png" alt="">
+                        <img src="./assets/images/cisco.png" alt="">
+                        <img src="./assets/images/bmw.png" alt="">
+                        <img src="./assets/images/fox.png" alt="">
+                        
+                        <!-- Duplicate images for smooth infinite scrolling -->
+                        <img src="./assets/images/google.png" alt="">
+                        <img src="./assets/images/express.png" alt="">
+                        <img src="./assets/images/jaguar.png" alt="">
+                        <img src="./assets/images/cisco.png" alt="">
+                        <img src="./assets/images/bmw.png" alt="">
+                        <img src="./assets/images/fox.png" alt="">
+                        <img src="./assets/images/google.png" alt="">
+                        <img src="./assets/images/express.png" alt="">
+                        <img src="./assets/images/jaguar.png" alt="">
+                        <img src="./assets/images/cisco.png" alt="">
+                        <img src="./assets/images/bmw.png" alt="">
+                        <img src="./assets/images/fox.png" alt="">        
+                        <img src="./assets/images/google.png" alt="">
+                        <img src="./assets/images/express.png" alt="">
+                        <img src="./assets/images/jaguar.png" alt="">
+                        <img src="./assets/images/cisco.png" alt="">
+                        <img src="./assets/images/bmw.png" alt="">
+                        <img src="./assets/images/fox.png" alt="">       
+                         <img src="./assets/images/google.png" alt="">
+                        <img src="./assets/images/express.png" alt="">
+                        <img src="./assets/images/jaguar.png" alt="">
+                        <img src="./assets/images/cisco.png" alt="">
+                        <img src="./assets/images/bmw.png" alt="">
+                        <img src="./assets/images/fox.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="ad_toriz">
+            <div class="ad_toriz_sub">
+                <p>Ad-Troiz</p> <p> The Architects of Future</p> <p> Marketing</p>
+            </div>
+            <div class="ad_toriz_text">
+                <p>At Ad-Troiz, we don’t just create ads—we craft immersive brand experiences powered by AI, 3D illusions, and futuristic marketing. We are a next-gen advertising agency redefining how brands engage with audiences. From holographic ads to AI-driven personalization, we bring innovation,
+                </p>
+            </div>
+            <div class="ad_toriz_btn">
+                <button>LEARN MORE</button>
+                <button>LET’S TALK INNOVATION!</button>
+            </div>
+        </div>
+        <div class="sm_wave">
+            <img src="./assets/images/waves.png" alt="">
+        </div>
+        <div class="boy_img">
+            <img src="./assets/images/child.png" alt="">
+        </div>
+        <div class="elevating">
+            <div class="ele_sub">
+                <p>Elevating Brands with Innovation</p>
+            </div>
+            <div class="ele_text">
+                <p>We don’t just create ads—we craft immersive experiences that captivate audiences and redefine marketing.</p>
+            </div>
+        </div>
         <div class="mountains">
             <div class="mountains_button">
                 <button>VIEW ALL SERVICES</button>
@@ -78,10 +176,10 @@
         <div class="howwework">
             <h2>How We Work</h2>
             <div class="howwework_sub">
-                <div class="first fist_div" >
+                <div class="first fist_div">
                     <img src="./assets/images/Discover.png" class="hwwimg" alt="">
                 </div>
-                <div class="second fist_div" >
+                <div class="second fist_div">
                     <div class="content">
                         <h3>1</h3>
                         <h3>Disover</h3>
@@ -131,7 +229,8 @@
                     <div class="content">
                         <h3>5</h3>
                         <h3>Launch</h3>
-                        <p>Your brand goes live across both physical and digital <br> spaces, ensuring maximum visibility and
+                        <p>Your brand goes live across both physical and digital <br> spaces, ensuring maximum
+                            visibility and
                             impact.</p>
                     </div>
 
@@ -140,7 +239,8 @@
                     <div class="content">
                         <h3>6</h3>
                         <h3>Optimize</h3>
-                        <p>We provide ongoing support, social media <br> management, and performance tracking to keep your <br>
+                        <p>We provide ongoing support, social media <br> management, and performance tracking to keep
+                            your <br>
                             brand ahead of the curve.</p>
                     </div>
                 </div>
@@ -163,7 +263,7 @@
                     <button>VIEW ALL SERVICES</button>
 
 
-                </div>       
+                </div>
             </div>
             <div class="ocu_div2">
                 <div class="ocu_card">
@@ -207,14 +307,16 @@
             <h2>What Our Clients Say</h2>
             <div class="cll">
                 <div class="cldes">
-                    <p>Mind-Blowing Innovation! “Ad-Troiz took our brand to the next level with their futuristic 3D ads. Our engagement skyrocketed!”</p>
+                    <p>Mind-Blowing Innovation! “Ad-Troiz took our brand to the next level with their futuristic 3D ads.
+                        Our engagement skyrocketed!”</p>
                     <div class="cliinfo">
                         <h3>Client Name</h3>
                         <p>[Company Name</p>
                     </div>
                 </div>
                 <div class="cldess">
-                    <p>Mind-Blowing Innovation! “Ad-Troiz took our brand to the next level with their futuristic 3D ads. Our engagement skyrocketed!”</p>
+                    <p>Mind-Blowing Innovation! “Ad-Troiz took our brand to the next level with their futuristic 3D ads.
+                        Our engagement skyrocketed!”</p>
                     <div class="cliinfoo">
                         <h3>Client Name</h3>
                         <p>[Company Name</p>
@@ -223,7 +325,7 @@
             </div>
             <div class="cliborder">
                 <div class="bline">
-    
+
                 </div>
                 <div class="dline"></div>
                 <div class="dline"></div>
@@ -233,37 +335,38 @@
         </div>
         <div class="container7">
             <div class="futuread">
-            <div class="imageside">
-                <img src="./assets/images/Group 34187.png" alt="">
-            </div>
-            <div class="contentside">
-                <div class="innerbox">
-                <h1>Ready to Experience the Future of Advertising?</h1>
-                <p>Your brand deserves more than just visibility—it deserves immersion, engagement, and impact. Let’s craft advertising that isn’t just seen but experienced.</p>
-                <div class="data">
-                    <h3>Hello My name is</h3>
-                    <input type="text" name="" id="" class="msg" >
+                <div class="imageside">
+                    <img src="./assets/images/Group 34187.png" alt="">
                 </div>
-                <div class="data">
-                    <h3 >I’am from</h3>
-                    <input type="text" name="" id="" class="msg">
-                </div>
-                <div class="data">
-                    <h3>My email address is</h3>
-                    <input type="text" name="" id="" class="msg">
-                </div>
-                <div class="data">
-                    <h3>And my message is</h3>
-                    <input type="text" name="" id="" class="msg">
-                    
-                </div>
-                <!-- <div class="data">
+                <div class="contentside">
+                    <div class="innerbox">
+                        <h1>Ready to Experience the Future of Advertising?</h1>
+                        <p>Your brand deserves more than just visibility—it deserves immersion, engagement, and impact.
+                            Let’s craft advertising that isn’t just seen but experienced.</p>
+                        <div class="data">
+                            <h3>Hello My name is</h3>
+                            <input type="text" name="" id="" class="msg">
+                        </div>
+                        <div class="data">
+                            <h3>I’am from</h3>
+                            <input type="text" name="" id="" class="msg">
+                        </div>
+                        <div class="data">
+                            <h3>My email address is</h3>
+                            <input type="text" name="" id="" class="msg">
+                        </div>
+                        <div class="data">
+                            <h3>And my message is</h3>
+                            <input type="text" name="" id="" class="msg">
+
+                        </div>
+                        <!-- <div class="data">
                     <div style=" width: 96%; margin-top: 20px;"></div>
                 </div> -->
-                <button class="submit_button">SUBMIT</button>
+                        <button class="submit_button">SUBMIT</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
         </div>
         <div class="adtrioz">
             <div class="adtriozhead">
@@ -280,39 +383,39 @@
         <div class="container8" id="footer">
             <div class="leftside">
                 <div class="imager">
-                <img src="./assets/images/Group 34188.png" alt="">
-            </div>
+                    <img src="./assets/images/Group 34188.png" alt="">
+                </div>
             </div>
             <div class="rightside">
-                    <div class="lll">
-                        <img src="./assets/images/Asset 2@4x.png" alt="">
-                        <div class="bll">
-                            <a href="../index.html">HOME</a>
-                            <a href="../PAGE3.html">ABOUT US</a>
-                            <a href="../services.html">SERVICES</a>
-                            <a href="../PAGE5.html">WORKS</a>
-                            <a href="../contact.html">CONTACT</a>
+                <div class="lll">
+                    <img src="./assets/images/Asset 2@4x.png" alt="">
+                    <div class="bll">
+                        <a href="../index.html">HOME</a>
+                        <a href="../PAGE3.html">ABOUT US</a>
+                        <a href="../services.html">SERVICES</a>
+                        <a href="../PAGE5.html">WORKS</a>
+                        <a href="../contact.html">CONTACT</a>
+                    </div>
+                </div>
+                <div class="rrr">
+                    <h6>SUBSCRIBE</h6>
+                    <input type="text" name="" id="" placeholder="Email Address">
+                    <p>Stay up to date on the latest features and <br> releases by joining our newsletter.</p>
+                    <div class="brr">
+                        <p>+91 7907009040</p>
+                        <p>delvindannyd3@gmail .com</p>
+                        <h6>CONNECT</h6>
+                        <div class="social">
+                            <img src="./assets/images/Group 32623.svg" alt="">
+                            <img src="./assets/images/Group 32622.svg" alt="">
+                            <img src="./assets/images/Group 32621.svg" alt="">
+                            <img src="./assets/images/Group 32620.svg" alt="">
+                            <img src="./assets/images/Group 32619.svg" alt="">
+                            <img src="./assets/images/Group 32618.svg" alt="">
                         </div>
                     </div>
-                    <div class="rrr">
-                        <h6>SUBSCRIBE</h6>
-                        <input type="text" name="" id="" placeholder="Email Address"  >
-                        <p>Stay up to date on the latest features and <br> releases by joining our newsletter.</p>
-                        <div class="brr">
-                            <p>+91 7907009040</p>
-                            <p>delvindannyd3@gmail .com</p>
-                            <h6>CONNECT</h6>
-                            <div class="social">
-                                <img src="./assets/images/Group 32623.svg" alt="">
-                                <img src="./assets/images/Group 32622.svg" alt="">
-                                <img src="./assets/images/Group 32621.svg" alt="">
-                                <img src="./assets/images/Group 32620.svg" alt="">
-                                <img src="./assets/images/Group 32619.svg" alt="">
-                                <img src="./assets/images/Group 32618.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-               
+                </div>
+
             </div>
             <div class="footer">
                 <p>©2025 Ad-Troiz, All Rights Reserved</p>

@@ -684,7 +684,289 @@ padding-bottom: 20px;
         transition: 0.3s ease;
         transform: scale(1.2);
     }
+
+.container1{
+    width: 100%;
+    height: 100vh;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.nav_main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.top{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.navmenu{
+    display: none;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+.icon_div i{
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border: 3px solid #afa9a9;
+    background:0% 0% no-repeat padding-box;
+}
+.navmenus{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.navmenus a{
+    color: #FFC930;
+    text-decoration: none;
+}
+.twolines{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 19px;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+}
+.branding{
+    width: 100%;
+    background-color: #000000;
+    padding: 30px 0px;
+    overflow: hidden;
+
+}
+.brands {
+    padding-top: 15px;
+    width: 94%;
+    margin: auto;
+  }
+  .brand {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300)
+      var(--unnamed-font-size-23) / var(--unnamed-line-spacing-38)
+      var(--unnamed-font-family-poppins);
+    color: rgb(198, 195, 195);
+    font-size: 1.1em;
+    padding-bottom:10px ;
+  }
+  .bpictures {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bpictures img {
+    object-fit: contain;
+  }
+  .bpictures img {
+    width: 150px; /* Adjust as needed */
+    margin: 0 20px;
+  }
+  .scroller {
+    display: flex;
+    width: 100%;
+    animation: scroll 150s linear infinite;
+  }
+  
+  .scroller img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin: 0 20px;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+.ad_toriz{
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+.ad_toriz_sub,.ad_toriz_text,.ad_toriz_btn{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+.ad_toriz_sub p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-78)/var(--unnamed-line-spacing-95) var(--unnamed-font-family-arial-rounded-mt-bold);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffc930);
+text-align: left;
+font: normal normal normal 78px/95px Arial Rounded MT Bold;
+letter-spacing: 0px;
+color: #FFC930;
+font-size: 3.2em;
+line-height: 53px;
+}
+.ad_toriz_text p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 300 23px/38px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 1em;}
+.ad_toriz_btn button{
+    background-color: #000000;
+    border: none;
+    padding: 10px 18px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-26)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal bold 26px/29px Poppins;
+font-size: 1.2em;
+}
+.sm_wave{
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 20px;
+    text-align: end;
+}
+.sm_wave img{
+    width: 150px;
+    height: 40px;
+    object-fit: cover;
+}
+.boy_img{
+    width: 100%;
+    background-color: #000000;
+}
+.boy_img img{
+    width: 100%;
+    position: relative;
+    width: 18vw;
+    animation: moveLeftRight 10s linear infinite alternate; 
+    bottom: -2.5vh;
+    z-index: 1;
+
+}
+
+
+  @keyframes moveLeftRight {
+    0% {
+        left: 0; /* Start from left */
+    }
+    100% {
+        left: 80%; /* Move to right */
+    }
+  }
+  .elevating{
+    width: 100%;
+    background-color: #262626;
+    padding-bottom: 20px;
+    
+  }
+  .ele_sub{
+    width: 60%;
+    margin: auto;
+  }
+  .ele_sub p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-78)/var(--unnamed-line-spacing-95) var(--unnamed-font-family-arial-rounded-mt-bold);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ec6754);
+text-align: center;
+font: normal normal normal 78px/95px Arial Rounded MT Bold;
+letter-spacing: 0px;
+color: #EC6754;
+font-size: 3em;
+  }
+.ele_text p{
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-poppins);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal 300 23px/38px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: 1em;
+}
+@media (min-width: 701) and (max-width: 800px) {
+    .boy_img img{
+        bottom: -0.3vh;
+        }
+}
+
 @media (max-width: 600px) {
+    .boy_img img{
+    bottom: -1vh;
+    }
+    .sm_wave img{
+        width: 80px;
+        height: 30px;
+    }
+    .ad_toriz_btn button{
+        font-size: 0.8em;
+    }
+    .ad_toriz_text p{
+        font-size: 0.8em;
+    }
+    .ad_toriz_sub p{
+        font-size: 2em;
+    }
+    .ad_toriz_sub, .ad_toriz_text, .ad_toriz_btn{
+        width: 90%;
+    }
+    .scroller img{
+        width: 80px;
+        height: auto;
+    }
+    .data{
+        margin-bottom: 10px;
+    }
+    .contentside{
+        margin-top: 10px;
+    }
+    .icon_div i {
+        font-size: 1em;
+    }
+
+    .rrr input{
+        padding: 0px;
+    }
+    .twolines{
+        font-size: .3em;
+        padding: 2px 2px;
+    }
+    .top{
+        padding: 7px;
+    }
+    .navmenus{
+        font-size: .3em;
+        padding-right: 5px;
+
+    }
+    .logo img{
+        width: 50px;
+        height: auto;
+    }
     .leftside{
         display: none;
     }
